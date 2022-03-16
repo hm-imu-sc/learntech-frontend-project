@@ -1,0 +1,203 @@
+section#slideshow {
+    display: relative;
+    // border: 1px solid red;
+
+    div.img-container {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: -1;
+
+        img {
+            height: 1000px;
+            max-width: 100%;
+        }        
+    }
+
+    section#content {
+        div {
+            // border: 2px solid aqua;
+            width: 750px;
+            margin: 100px auto;
+            margin-bottom: 230px;
+            border-radius: 10px;
+            padding: 20px;
+
+            h1 {
+                font-size: 3em;
+            }
+
+            h3, p {
+                color: #26001B;
+            }
+
+            button {
+                cursor: pointer;
+                background-color: transparent;
+                font-size: 1.2em;
+                font-weight: bold;
+                color: #26001B;
+                border: 3px solid #26001B;
+                padding: 10px 30px;
+                border-radius: 5px;
+                margin-top: 50px;
+
+                &:hover {
+                    color: #D1C145;
+                    background-color: #26001B;
+                }
+            }
+        }
+    }
+}
+
+section#courses {
+
+    background-color: #055a5b4b;
+    padding: 20px 0;
+
+    h1 {
+        text-align: center;
+        color: #59886B;
+    }
+
+    div.course-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        div.course {
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px;
+            width: 25%;
+            background-color: #055a5b8f;
+            margin: 20px 30px;
+
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            h2, h5 {
+                color: #26001B;
+            }
+
+            h5 {
+                line-height: 30px;
+            }
+
+            button {
+                cursor: pointer;
+                background-color: transparent;
+                font-size: 15px;
+                font-weight: bold;
+                color: #26001B;
+                border: 1px solid #26001B;
+                padding: 5px 20px;
+                border-radius: 5px;
+
+                &:hover {
+                    color: #D1C145;
+                    background-color: #26001B;
+                }
+            }
+        }
+    }
+}
+
+section#about {
+
+    margin-top: 30px;
+    background-color: #055a5b4b;
+    padding: 20px 0;
+
+    .about {
+        h1 {
+            text-align: center;
+            color: #59886B;
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        div {
+            margin: 0 20px;
+            height: 100px;
+            width: 100px;
+            border: 10px solid #051367;
+            border-radius: 50%;
+            padding: 35px;
+            text-align: center;
+            h1, h3 {
+                color: #26001B;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+section#learntech {
+    
+    margin-top: 30px;
+    background-color: #055a5b4b;
+    padding: 20px 0;
+
+    h1 {
+        text-align: center;
+        color: #59886B;
+    }
+
+    .learntech {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 0;
+
+        .card {
+            border: 2px solid black;
+            border-radius: 5px;
+            
+            .card-body {
+                position: relative;
+                padding: 20px;
+                h2 {
+                    color: #26001B;
+                }
+                h5 {
+                    color: black;
+                    width: 60%;
+                    line-height: 30px;
+                }
+                button {
+                    background-color: transparent;
+                    border: 2px solid #26001B;
+                    padding: 20px;
+                    position: absolute;
+                    right: 15px;
+                    bottom: 25px;
+                    margin: auto;
+                    border-radius: 15px;
+                    color: black;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #26001B;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

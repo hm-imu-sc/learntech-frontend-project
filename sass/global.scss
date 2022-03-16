@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital@1&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto Serif', serif;
+    text-decoration: none;
+    color: #D1C145;
+}
+
+body {
+    background-color: #EFFFFD
+}
+
+header {
+
+    // border: 1px solid red;
+    height: 90px;
+
+    nav {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #1e6f5cda;
+        position: fixed;
+        width: 100%;
+
+        img {
+            padding: 15px 10px;
+            border-radius: 10px;
+            padding: 25px 10px;
+            height: 30px;
+            width: auto;
+        }
+
+        a {
+            margin: 0px 10px;
+            font-size: 1.1em;
+            padding: 25px 10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            font-weight: bold;
+            color: #26001B;
+
+            &:hover {
+                border-bottom-color: gray;
+            }
+        }
+        
+        a.active {
+            font-weight: bold;
+            color: #121013;
+            border-bottom-color: black;
+        }
+    }
+}
+
+footer {
+
+    // border: 1px solid red;
+    max-height: 300px;
+    background-color: #1E6F5C;
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+        border-radius: 3px;
+        height: 25px;
+        width: auto;
+        margin: 16px 10px;
+    }
+
+    p {
+        font-weight: bold;
+        padding-top: 3px;
+        color: #26001B;
+    }  
+}
+
+// section {
+//     display: none;
+// }
