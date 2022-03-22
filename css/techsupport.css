@@ -1,13 +1,47 @@
-/*
-====================================================================================================================================================================
-                                                    Start Tech Support Page
-====================================================================================================================================================================
-*/
+section#techsupport {
+  background-color: #055a5b4b;
+  padding: 20px 0;
+}
+section#techsupport h1 {
+  text-align: center;
+  color: #59886B;
+}
+section#techsupport div.supports {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section#techsupport div.supports div {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  width: 25%;
+  background-color: #055a5b8f;
+  margin: 20px 30px;
+}
+section#techsupport div.supports div img {
+  width: 100%;
+  border-radius: 5px;
+}
+section#techsupport div.supports div h1, section#techsupport div.supports div p {
+  color: #26001B;
+}
+section#techsupport div.supports div h5 {
+  line-height: 30px;
+}
+section#techsupport div.supports div button {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  color: #26001B;
+  border: 1px solid #26001B;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+section#techsupport div.supports div button:hover {
+  color: #D1C145;
+  background-color: #26001B;
+}
 
- 
-
-/*
-====================================================================================================================================================================
-                                                    End Tech Support Page
-====================================================================================================================================================================
-*/
+/*# sourceMappingURL=techsupport.css.map */

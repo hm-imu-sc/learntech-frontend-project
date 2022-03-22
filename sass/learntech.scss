@@ -1,0 +1,53 @@
+section#learntech {
+    
+    margin-top: 30px;
+    background-color: #055a5b4b;
+    padding: 20px 0;
+
+    h1 {
+        text-align: center;
+        color: #59886B;
+    }
+
+    .learntech {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 0;
+
+        .card {
+            border: 2px solid black;
+            border-radius: 5px;
+            
+            .card-body {
+                position: relative;
+                padding: 20px;
+                h2 {
+                    color: #26001B;
+                }
+                h6 {
+                    color: black;
+                    width: 60%;
+                    line-height: 30px;
+                }
+                button {
+                    background-color: transparent;
+                    border: 2px solid #26001B;
+                    padding: 20px;
+                    position: absolute;
+                    right: 15px;
+                    bottom: 25px;
+                    margin: auto;
+                    border-radius: 15px;
+                    color: black;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #26001B;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
