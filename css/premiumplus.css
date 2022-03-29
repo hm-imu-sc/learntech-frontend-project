@@ -1,30 +1,87 @@
-/*
-====================================================================================================================================================================
-                                                    Start Premium Plus Page
-====================================================================================================================================================================
-*/
+section#courses * {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+section#courses h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 20px auto;
+  color: black;
+}
+section#courses .plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section#courses .plans div {
+  background-color: #202736;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px 0px black;
+  padding: 20px;
+  height: 500px;
+  margin: 10px 15px;
+  position: relative;
+  width: 250px;
+}
+section#courses .plans div h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 120px;
+  padding: 20px;
+  padding-top: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+section#courses .plans div ul {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section#courses .plans div ul li {
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+  color: rgba(255, 217, 0, 0.562);
+}
+section#courses .plans div button {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+  padding: 20px 0;
+  background-color: transparent;
+  border: 2px solid purple;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #ad42c2;
+}
+section#courses .plans div button:hover {
+  color: white;
+  background-color: purple;
+}
+section#courses .plans .monthly h2 {
+  background-color: #2dc5e3;
+}
+section#courses .plans .annual h2 {
+  background-color: #9658f8;
+}
+section#courses .plans .lifetime h2 {
+  background-color: #2ae781;
+}
 
-
-
-/*
-====================================================================================================================================================================
-                                                    End Premium Plus Page
-====================================================================================================================================================================
-*/
-
-
-
-
-/*
-====================================================================================================================================================================
-                                                    Start Footer
-====================================================================================================================================================================
-*/
-
- 
-
-/*
-====================================================================================================================================================================
-                                                    End Footer
-====================================================================================================================================================================
-*/
+/*# sourceMappingURL=premiumplus.css.map */
